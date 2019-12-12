@@ -14,7 +14,7 @@ var buttonNode = d.childNodes[0]
 
 buttonNode.addEventListener('click', function () {
   var i = Math.floor(Math.random() * 155)
-  document.querySelectorAll('#pull_request_review_body')[0].value += '\n![](https://randompokemon.com/sprites/animated/' + i + '.gif)'
+  document.querySelectorAll('#pull_request_review_body')[0].value += '\n![](https://randompokemon.com/sprites/normal/' + i + '.gif)'
 })
 
 function checkAndInsert () {
